@@ -1,0 +1,38 @@
+{
+  "name": "aplikasi-business",
+  "version": "1.0.0",
+  "description": "Portal Video dengan Play Button Ad-Gate & Admin Dashboard Klik Iklan (TypeScript / TSX)",
+  "main": "server.ts",
+  "scripts": {
+    "start": "tsx server.ts",
+    "dev": "tsx watch server.ts",
+    "typecheck": "tsc --noEmit",
+    "db:reset": "tsx scripts/reset-db.ts",
+    "db:clear-logs": "tsx scripts/reset-db.ts --logs-only",
+    "db:seed": "tsx scripts/reset-db.ts --seed",
+    "db:restore": "tsx scripts/reset-db.ts --restore",
+    "env:info": "tsx scripts/network-info.ts"
+  },
+  "keywords": [
+    "video",
+    "ad-gate",
+    "dashboard",
+    "admin",
+    "typescript",
+    "tsx"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^25.8.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}

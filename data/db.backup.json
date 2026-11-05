@@ -1,0 +1,18 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "admin123",
+    "name": "Administrator Utama"
+  },
+  "adSettings": {
+    "defaultAdUrl": "https://s.shopee.co.id/LlyjAypJt",
+    "adName": "Iklan Sponsor Utama",
+    "adButtonText": "Klik Iklan & Putar Video",
+    "requireClicksCount": 1,
+    "lockMode": "every_load",
+    "enabled": true,
+    "updatedAt": "2026-11-05T02:43:54.103Z"
+  },
+  "videos": [],
+  "adClicksLog": []
+}
